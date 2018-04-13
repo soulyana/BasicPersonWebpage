@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>BasicPersonForm</title>
+</head>
+<body>
+
+System.out.println("What is your first name?");
+aPerson.setFirstName(scan.nextLine());
+
+System.out.println("What is your last name?");
+aPerson.setLastName(scan.nextLine());
+
+System.out.println("What is your phone number?");
+aPerson.setPhoneNum(scan.nextLine());
+
+System.out.println("What is your email address?");
+aPerson.setEmail(scan.nextLine());
+
+System.out.println("It's great to meet you " + aPerson.getFirstName() + " " + aPerson.getLastName() +
+"! Can I call you " + aPerson.getFirstName() + "? Your phone number is " + aPerson.getPhoneNum() +
+", and your email address is " + aPerson.getEmail() + " .");
+</body>
+</html>
